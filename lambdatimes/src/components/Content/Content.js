@@ -25,6 +25,7 @@ export default class Content extends Component {
 
   changeSelected = tab => {
     if (this.state.selected !== 'all') {
+      return 
       this.setState({
         tabs: this.state.tab
       })
